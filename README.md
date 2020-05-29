@@ -3,14 +3,14 @@
 
 ##*ROTEIRO RESUMIDO*##
 
-###### 1. Copiar diretório da *Aula 8* e renomear como *solicitacoes-v2*
+###### 1. Fazer download da pasta compactada *"solicitacoes-v2"*
 
-###### 2. Acessar diretório criado
+###### 2. Acessar diretório correspondente
 ```
 cd solicitacoes-v2/
 ```
 
-###### 3. Listar diretórios existentes dentro de *solicitacoes-v2*
+###### 3. Listar diretórios existentes dentro de *solicitacoes-v2* e verificar se há "app", "dados", "nginx", "scripts", "web" e "docker-compose"
 ```
 ls
 ```
