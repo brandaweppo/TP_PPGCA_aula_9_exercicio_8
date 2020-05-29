@@ -1,7 +1,7 @@
 # Técnicas de Programação/PPGCA
 ## Exercício 8 - Aula 9
 
-##*ROTEIRO RESUMIDO*##
+*##ROTEIRO RESUMIDO##*
 
 ###### 1. Fazer download da pasta compactada *"solicitacoes-v2"*
 
