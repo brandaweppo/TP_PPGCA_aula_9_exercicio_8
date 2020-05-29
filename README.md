@@ -1,10 +1,7 @@
 # Técnicas de Programação/PPGCA
 ## Exercício 8 - Aula 9
 
-##*ROTEIRO RESUMINO*##
-
-# Técnicas de Programação/PPGCA
-## Exercício 8 - Aula 9
+##*ROTEIRO RESUMIDO*##
 
 ###### 1. Copiar diretório da *Aula 8* e renomear como *solicitacoes-v2*
 
