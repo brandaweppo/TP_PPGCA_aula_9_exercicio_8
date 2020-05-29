@@ -74,7 +74,7 @@ docker-compose exec db psql -U postgres -d solicitacoes -c 'select * from pedido
 ```
 docker-compose exec db -u postgres db pg_dump -Fc solicitacoes > dados/dump_'date +%d-%m-%Y"_"%H_%M_%S'.sql
 ```
-
+__________________________________________________________________________________________________________________________
 
 ##*ROTEIRO DETALHADO*##
 
