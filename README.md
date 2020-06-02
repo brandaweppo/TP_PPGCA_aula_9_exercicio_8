@@ -46,7 +46,7 @@ docker-compose exec db psql -U postgres -d solicitacoes -c 'select * from pedido
 ```
 docker-compose ps
 ```
-###### 12. Desativar os componentes estão ativos
+###### 12. Desativar os componentes que estão ativos
 ```
 docker-compose down
 ```
@@ -66,11 +66,11 @@ docker-compose ps
 ```
 docker-compose logs -f -t
 ```
-###### 17. Verificar se as informações inserirdas na página web estão registradas na base de dados
+###### 17. Verificar se as informações inseridas na página web estão registradas na base de dados
 ```
 docker-compose exec db psql -U postgres -d solicitacoes -c 'select * from pedidos'
 ```
-###### 18. Fazer um backup das informações inserirdas na página web estão registradas na base de dados em formato sql dentro do diretório *"dados"*
+###### 18. Fazer um backup das informações inseridas na página web estão registradas na base de dados em formato sql dentro do diretório *"dados"*
 ```
 docker-compose exec db -u postgres db pg_dump -Fc solicitacoes > dados/dump_'date +%d-%m-%Y"_"%H_%M_%S'.sql
 ```
@@ -359,7 +359,7 @@ docker-compose ps
 ```
 docker-compose logs -f -t
 ```
-###### 49. Verificar se as informações inserirdas na página web estão registradas na base de dados
+###### 49. Verificar se as informações inseridas na página web estão registradas na base de dados
 ```
 docker-compose exec db psql -U postgres -d solicitacoes -c 'select * from pedidos'
 ```
@@ -367,7 +367,7 @@ docker-compose exec db psql -U postgres -d solicitacoes -c 'select * from pedido
 ```
 mkdir dados
 ```
-###### 51. Fazer um backup das informações inserirdas na página web estão registradas na base de dados em formato sql dentro do diretório *"dados"*
+###### 51. Fazer um backup das informações inseridas na página web estão registradas na base de dados em formato sql dentro do diretório *"dados"*
 ```
 docker-compose exec db -u postgres db pg_dump -Fc solicitacoes > dados/dump_'date +%d-%m-%Y"_"%H_%M_%S'.sql
 ```
