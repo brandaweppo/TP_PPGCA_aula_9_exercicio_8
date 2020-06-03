@@ -36,7 +36,7 @@ docker-compose ps
 ```
 ###### 8. Acessar o navegador web e verificar se a aplicação está no *localhost*
 
-###### 9. Acessar o navegador web e fazer uma teste de formulário, preenchendo os campos e acionando o botão *"Enviar"*, verificar se os títulos dos campos e as respostas preenchidas aparecem na própria página do *"localhost"*.
+###### 9. Acessar o navegador web e fazer um teste de formulário, preenchendo os campos e acionando o botão *"Enviar"*, verificar se os títulos dos campos e as respostas preenchidas aparecem na própria página do *"localhost"*.
 
 ###### 10. Executar comando para visualizar o banco de dados
 ```
