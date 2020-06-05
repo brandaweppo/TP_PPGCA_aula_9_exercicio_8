@@ -1,11 +1,6 @@
 # Técnicas de Programação/PPGCA
 ## Exercício 8 - Aula 9
 
-*##ROTEIRO RESUMIDO##*
-
-# Técnicas de Programação/PPGCA
-## Exercício 8 - Aula 9
-
 ###### 1. Fazer download da pasta compactada *"solicitacoes-v2"*
 
 ###### 2. Acessar diretório correspondente
@@ -73,7 +68,7 @@ docker-compose logs -f -t
 ```
 docker-compose exec db psql -U postgres -d solicitacoes -c 'select * from pedidos'
 ```
-###### 18. Fazer um backup das informações inserirdas na página web estão registradas na base de dados em formato sql dentro do diretório *"dados"*
+###### 18. Fazer um backup das informações inserirdas na página web que serão registradas na base de dados em formato sql dentro do diretório *"dados"*
 ```
-docker-compose exec -u postgres db pg_dump -Fc solicitacoes > dados/dump_'date +%d-%m-%Y"_"%H_%M_%S'.sql
+docker-compose exec -u postgres db pg_dump -Fc solicitacoes > dados/dump_date.sql
 ```
