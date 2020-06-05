@@ -61,7 +61,7 @@ cd ..
 
 ```
 
-###### 11. Verificar se não há nada rodando do arquivo *"docker-compose"* com o comano abaixo:
+###### 11. Verificar se não há nada rodando do arquivo *"docker-compose"* com o comando abaixo:
 ```
 docker-compose ps 
 ```
