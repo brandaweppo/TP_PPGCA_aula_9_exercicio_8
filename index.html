@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sistema de solicitação</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body class="w-50 p-2 container center-align">
+    <div class="card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(3).jpg');">
+      <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+        <form action="http://localhost/api" method="POST">
+          <!--Header-->
+          <div class="text-center">
+            <h3 class="white-text mb-5 mt-4 font-weight-bold text-uppercase"><strong>Sistema de Solicitações</strong> </h3>
+          </div>
+          <div class="md-form">
+            <label for="nome">Nome</label>
+            <input class="form-control" name="nome" placeholder="Digite seu nome"/>
+          </div>
+
+          <div class="md-form">
+            <label for="assunto">Assunto</label>
+            <input class="form-control" name="assunto" placeholder="Digite seu assunto"/>
+          </div>
+
+          <div class="md-form">
+            <label for="mensagem">Mensagem</label>
+            <textarea class="md-textarea form-control" name="mensagem" placeholder="Digite sua mensagem" rows="5"></textarea>
+          </div>
+          
+          <div class="row d-flex align-items-center">
+            <div class="text-center col-md-12 mt-3 mb-2">
+              <button class="btn btn-success btn-block btn-rounded z-depth-1">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
