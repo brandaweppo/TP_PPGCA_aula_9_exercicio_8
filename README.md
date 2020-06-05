@@ -90,7 +90,9 @@ docker-compose ps
 
 ![Captura de Tela (62)](https://user-images.githubusercontent.com/65691783/83930336-6f5f1e80-a76d-11ea-9a02-34be99d1ecc7.png)
 
-###### 16. Acessar o navegador web e fazer uma teste de formulário, preenchendo os campos e acionando o botão *"Enviar"*, verificar se os títulos dos campos e as respostas preenchidas aparecem na própria página do *"localhost"*.
+###### 16. Acessar o navegador web e fazer uma teste de formulário, preenchendo os campos e acionando o botão *"Enviar"*, verificar se os títulos dos campos e as respostas preenchidas aparecem na própria página do *"localhost"*, conforme mostra a imagem abaixo:
+
+![Captura de Tela (65)](https://user-images.githubusercontent.com/65691783/83930584-b7327580-a76e-11ea-8946-2eb63375d13a.png)
 
 ###### 17. Executar o comando indicado abaixo para visualizar o banco de dados:
 ```
