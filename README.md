@@ -104,13 +104,14 @@ docker-compose exec db psql -U postgres -d solicitacoes -c 'select * from pedido
 docker-compose logs -f -t
 ```
 
-###### 19. Verificar se as informações inserirdas na página web estão registradas na base de dados
+
+###### 19. Verificar se as informações inserirdas na página web estão registradas na base de dados utilizando o comando abaixo. Logo abaixo segue uma imagem ilustrativa.
 ```
 docker-compose exec db psql -U postgres -d solicitacoes -c 'select * from pedidos'
 ```
+![Captura de Tela (67)](https://user-images.githubusercontent.com/65691783/83930718-55bed680-a76f-11ea-9135-f70525a39018.png)
 
-###### 20. Fazer um backup das informações inserirdas na página web que estão registradas na base de dados em um arquivo de formato sql dentro do diretório *"dados"*, utilizando o comando abaixo:
+###### 20. Faça um backup das informações inseridas na página web que estão registradas na base de dados salvando-as em um arquivo de formato sql dentro do diretório *"dados"*, utilizando o comando abaixo:
 ```
 docker-compose exec -u postgres db pg_dump -Fc solicitacoes > dados/dump_date.sql
 ```
-
