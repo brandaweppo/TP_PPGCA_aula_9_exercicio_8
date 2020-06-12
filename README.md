@@ -1,7 +1,7 @@
 # Técnicas de Programação/PPGCA
 ## Exercício 8 - Aula 9
 
-###### 1. Fazer uma diretório local chamado *"solicitacoes-v2"*
+###### 1. Fazer um diretório local chamado *"solicitacoes-v2"*
 
 ###### 2. Acessar diretório correspondente
 ```
